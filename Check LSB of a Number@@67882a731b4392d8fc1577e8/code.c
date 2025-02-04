@@ -2,10 +2,6 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a&1){
-        printf("Set\n");
-    }else{
-        printf("Not Set\n")
-    }
+    printf("%s\n",(a&1)?"Set":"Not Set");
     return 0;
 }
