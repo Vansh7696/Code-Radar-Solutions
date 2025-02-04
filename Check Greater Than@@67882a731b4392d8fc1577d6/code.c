@@ -7,5 +7,4 @@ int main() {
     }else{
         return False;
     }
-    return 0;
 }
