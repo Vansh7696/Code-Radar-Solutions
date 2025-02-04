@@ -2,6 +2,10 @@
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    printf("%d",a>b);
+    if(a>b){
+        return True;
+    }else{
+        return False;
+    }
     return 0;
 }
