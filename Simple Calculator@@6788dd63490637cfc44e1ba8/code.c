@@ -10,6 +10,8 @@ int main() {
         printf("%d",a*b);
     }else if(s=='/'){
         printf("%d",a/b);
+    }else{
+        printf("Error");
     }
     return 0;
 }
