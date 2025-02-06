@@ -1,15 +1,19 @@
 #include <stdio.h>
+
 int main() {
-    char ch;
-    scanf("%c",ch);
-    if(ch=='R'){
-        printf("Stop");
-    }else if(ch=='G'){
-        printf("Go");
-    }else if(ch=='Y'){
-        printf("Slow Down");
-    }else{
-        printf("Invalid input");
+    char input;
+
+    scanf(" %c", &input); // Read input, consume any leading whitespace
+
+    if (input == 'R') {
+        printf("Stop\n");
+    } else if (input == 'G') {
+        printf("Go\n");
+    } else if (input == 'Y') {
+        printf("Slow Down\n");
+    } else {
+        printf("Invalid input\n");
     }
+
     return 0;
 }
