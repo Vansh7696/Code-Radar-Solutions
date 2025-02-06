@@ -5,7 +5,7 @@ int main() {
     char operator;
 
     if (scanf("%d %d %c", &num1, &num2, &operator) != 3) {
-        printf("Error: Invalid input format.\n");
+        printf("Error");
         return 1;
     }
 
@@ -22,7 +22,7 @@ int main() {
             printf("%d\n", num1 / num2);
         }
     } else {
-        printf("Error: Invalid operator.\n");
+        printf("Error");
     }
     return 0;
 }
