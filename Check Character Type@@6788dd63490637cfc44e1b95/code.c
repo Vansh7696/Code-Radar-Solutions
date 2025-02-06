@@ -6,6 +6,8 @@ int main() {
         printf("Vowel");
     }else if(ch>=1&&ch<=10000){
         printf("Digit");
+    }else{
+        printf("Special Character");
     }
     return 0;
 }
