@@ -1,17 +1,28 @@
 #include <stdio.h>
+
 int main() {
-    int a,b,s;
-    scanf("%d%d%d",&a,&b,&s);
-    if(s=='+'){
-        printf("%d",a+b);
-    }else if(s=='-'){
-        printf("%d",a-b);
-    }else if(s=='*'){
-        printf("%d",a*b);
-    }else if(s=='/'){
-        printf("%d",a/b);
-    }else{
-        printf("Error");
+    int num1, num2;
+    char operator;
+
+    if (scanf("%d %d %c", &num1, &num2, &operator) != 3) {
+        printf("Error: Invalid input format.\n");
+        return 1;
+    }
+
+    if (operator == '+') {
+        printf("%d\n", num1 + num2);
+    } else if (operator == '-') {
+        printf("%d\n", num1 - num2);
+    } else if (operator == '*') {
+        printf("%d\n", num1 * num2);
+    } else if (operator == '/') {
+        if (num2 == 0) {
+            printf("Error: Division by zero.\n");
+        } else {
+            printf("%d\n", num1 / num2);
+        }
+    } else {
+        printf("Error: Invalid operator.\n");
     }
     return 0;
 }
