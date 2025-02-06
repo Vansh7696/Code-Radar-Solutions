@@ -4,7 +4,7 @@ int main() {
     char operator;
     if (scanf("%d %d %c", &num1, &num2, &operator) != 3) {
         printf("Error");
-        return 1;
+        return 0;
     }
     switch (operator) {
         case '+':
@@ -24,7 +24,7 @@ int main() {
             }
             break;
         default:
-            printf("Error: Invalid operator.\n");
+            printf("Error");
     }
     return 0;
 }
