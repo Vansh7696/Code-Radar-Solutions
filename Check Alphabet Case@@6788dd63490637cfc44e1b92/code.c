@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char n;
-    scanf("%s",&n);
+    scanf("%c",&n);
     if(n>="A" && n<="Z"){
         printf("Uppercase");
     }
