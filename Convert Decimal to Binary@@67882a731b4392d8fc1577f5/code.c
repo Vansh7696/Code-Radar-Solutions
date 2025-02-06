@@ -6,5 +6,6 @@ int main() {
         int k = n>>i;
         printf("%d",k&1);
     }
+    printf("\n");
     return 0;
 }
