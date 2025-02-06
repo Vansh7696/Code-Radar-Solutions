@@ -2,21 +2,21 @@
 int main() {
     int n;
     if(n==1){
-        printf("Monday");
+        printf("Monday\n");
     }else if(n==2){
-        printf("Tuesday");
+        printf("Tuesday\n");
     }else if(n==3){
-        printf("Wednesday");
+        printf("Wednesday\n");
     }else if(n==4){
-        printf("Thursday");
+        printf("Thursday\n");
     }else if(n==5){
-        printf("Friday");
+        printf("Friday\n");
     }else if(n==6){
-        printf("Saturday");
+        printf("Saturday\n");
     }else if(n==7){
-        printf("Sunday");
+        printf("Sunday\n");
     }else{
-        printf("Invalid");
+        printf("Invalid\n");
     }
     return 0;
 }
