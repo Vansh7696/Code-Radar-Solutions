@@ -8,7 +8,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         // Inner loop: prints numbers from 1 up to (n-i+1)
         for (int j = 1; j <= n - i + 1; j++) {
-            printf("%d", j);
+            printf("%d ", j);
         }
         printf("\n"); // Move to the next line after each row
     }
