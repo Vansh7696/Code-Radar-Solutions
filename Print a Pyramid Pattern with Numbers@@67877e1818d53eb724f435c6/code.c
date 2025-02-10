@@ -14,7 +14,7 @@ int main() {
 
         // Inner loop: Print numbers from 1 to i
         for (int j = 1; j <= i; j++) {
-            printf("%d", j);  // Print the number
+            printf("%d ", j);  // Print the number
         }
 
         // Move to the next line after each row
