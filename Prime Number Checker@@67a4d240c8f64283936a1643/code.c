@@ -1,16 +1,14 @@
 #include <stdio.h>
 #include <stdbool.h>
-
-// Function to check if a number is prime
 int isPrime(int num) {
     if (num <= 1) {
-        return 0; // Not prime
+        return 0;
     }
     for (int i = 2; i * i <= num; i++) {
         if (num % i == 0) {
-            return 0; // Not prime (divisible by i)
+            return 0;
         }
     }
-    return 1; // Prime
+    return 1;
 }
 
